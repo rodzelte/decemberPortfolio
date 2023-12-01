@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;800&family=Poppins:ital,wght@0,400;0,800;1,200&display=swap');
+
+:root{
+    --color-border1: #AEE2FF;
+    --color-border2: #93C6E7;
+    --color-p:grey;
+    --color-border-button: #9747FF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* end of global variables */
+
+/* html design*/
+
+/* header  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 7%;
+    font-weight: 600;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+
+}
+
+.logo{
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 6%;
+}
+
+nav ul a{
+    align-items: center;
+}
+
+
+/* end of header  */
+
+/* hero section */
+
+.hero{
+    display: block;
+    max-width: max-content;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.hero h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.hero p{
+    color: var(--color-p);
+
+}
+
+
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size:18px;
+    height: 50px;
+    gap: 30px;
+    padding-top: 10%;
+        
+}
+
+.link i {
+    border: solid;
+    margin-left: 15%;
+    font-size: 20px;
+    padding: 30% 50%;
+    border-radius:50px 40px;
+    border-color: rgb(0, 0, 0, 0.1);
+    border-width: 1px;
+}
+
+
+/* end of hero section */
+
+/* about-section */
+
+.about{
+    display: flex;
+    align-items:center;
+    margin-left: 6%;
+    margin-top: 6%;
+    padding-right: 40%;
+    width: min-content;
+    height: min-content;
+}
+
+.about p{
+    display:block;
+    flex-direction: column;
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 5% -1%;
+    padding-bottom: -30%;
+    max-width: 100%;
+    display:block;
+}
+
+.about h1{
+    display: block;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom:2%;
+}
+
+button{
+    display: flex;
+    border: solid;
+    border-color: var(--color-border-button);
+    border-width:1px;
+    border-radius: 30px;
+    padding:4px 8px;
+    color: var(--color-border-button);
+    font-weight:400;
+    font-size: 14px;
+    width: max-content;
+}
+
+/* button */
+
+button:hover{
+
+}
+
+button::view-transition{
+
+}
+
+/* end-button */
+
+.block-about{
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+}
+
+
+img.profile{
+    width: 60%;
+}
+
+
+
+/* end-about-section */
